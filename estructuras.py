@@ -1,14 +1,13 @@
-# ============================
+
 # Nodo Genérico
-# ============================
+# .....
 class Nodo:
     def __init__(self, dato):
         self.dato = dato
         self.siguiente = None
 
-# ============================
+
 # Lista Circular Simplemente Enlazada
-# ============================
 class ListaCircular:
     def __init__(self):
         self.primero = None
@@ -92,9 +91,7 @@ class ListaCircular:
                 resultado.append(mitad_2[i])
         self.reconstruir_desde_lista(resultado)
 
-# ============================
-# Pila Personalizada (para mazo de jugador)
-# ============================
+#PILA REALIZADA DE FORMA PERSONALIZADA.
 class Pila:
     def __init__(self):
         self.cima = None

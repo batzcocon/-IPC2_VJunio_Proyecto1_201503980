@@ -5,9 +5,7 @@ def generar_reporte(partida: object, ruta_salida="reporte_juego"):
     dot.attr(rankdir='LR')
     dot.attr('node', shape='box', style='filled', fontname='Helvetica')
 
-    # =====================
-    # MAZOS DE LOS JUGADORES
-    # =====================
+    #mazos
     for jugador in partida.jugadores:
         nombre = jugador.nombre.replace(" ", "_")
         cartas = jugador.mostrar_cartas()
@@ -28,16 +26,12 @@ def generar_reporte(partida: object, ruta_salida="reporte_juego"):
             dot.node(f"{nombre}_inicio", f"Mazo {jugador.nombre}", fillcolor="white", style="bold")
             dot.edge(f"{nombre}_inicio", f"{nombre}_carta_{len(cartas)-1}")
 
-    # =====================
-    # CARTA EN MESA
-    # =====================
+    #cartas en juego
     if partida.carta_en_mesa:
         label = str(partida.carta_en_mesa)
         dot.node("MESA", f"Área de Juego:\n{label}", fillcolor="lightblue", style="bold")
 
-    # =====================
-    # MAZO DE RESERVA (vertical)
-    # =====================
+    #mazoas que se agregan en modo reserva...
     cartas_reserva = partida.mazo_reserva.recorrer()
     anterior = None
     for i, carta in enumerate(reversed(cartas_reserva)):
@@ -53,9 +47,7 @@ def generar_reporte(partida: object, ruta_salida="reporte_juego"):
         dot.node("reserva_inicio", "Mazo de Reserva", fillcolor="white", style="bold")
         dot.edge("reserva_inicio", f"reserva_{len(cartas_reserva)-1}")
 
-    # =====================
-    # EXPORTAR REPORTE
-    # =====================
+    #exportar informe.
     dot.render(ruta_salida, format='png', cleanup=True)
     print(f"✅ Reporte generado: {ruta_salida}.png")
 

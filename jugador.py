@@ -3,19 +3,19 @@ from estructuras import Pila
 class Jugador:
     def __init__(self, nombre):
         self.nombre = nombre
-        self.mazo = Pila()  # El mazo es una pila LIFO (última carta entra, primera sale)
+        self.mazo = Pila()  # El mazo es una pila LIFO 
 
     def recibir_carta(self, carta):
         self.mazo.push(carta)
 
     def jugar_carta(self, carta_en_mesa):
-        # Si puede lanzar desde la cima (LIFO), lo hace
+        # LIFO
         if not self.mazo.esta_vacia():
             carta_top = self.mazo.peek()
             if carta_top.coincide(carta_en_mesa):
                 return self.mazo.pop()
 
-            # Si no, buscar en el resto de la pila (de arriba hacia abajo)
+            # Si no, buscar en el resto de la pila 
             anterior = None
             actual = self.mazo.cima
 

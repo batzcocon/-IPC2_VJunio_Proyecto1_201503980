@@ -23,7 +23,7 @@ def iniciar_partida():
         messagebox.showwarning("Partida no seleccionada", "Debes seleccionar una partida")
         return
 
-    log_partida = []  # Reiniciar log para nueva partida
+    log_partida = []  # Reiniciar 
 
     shuffles = partidas_config[nombre]
     partida = Partida(nombre, mazo, jugadores, shuffles)
@@ -61,9 +61,7 @@ def generar_grafico():
     generar_reporte(partida)
     messagebox.showinfo("Gráfico generado", "📊 El reporte gráfico fue guardado como 'reporte_juego.png'")
 
-# =======================
-# INTERFAZ CON TKINTER
-# =======================
+#iniciamos la interfaz....
 root = tk.Tk()
 root.title("Card Clash: IPC2 Edition")
 root.geometry("800x500")
