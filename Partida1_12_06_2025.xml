@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<partida_jugada>
+  <resumen>
+    <ganador>María Quintana</ganador>
+    <total_pasos>38</total_pasos>
+  </resumen>
+  <pasos>
+    <paso n="1">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="2">María Quintana jugó o robó una carta.</paso>
+    <paso n="3">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="4">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="5">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="6">María Quintana jugó o robó una carta.</paso>
+    <paso n="7">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="8">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="9">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="10">María Quintana jugó o robó una carta.</paso>
+    <paso n="11">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="12">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="13">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="14">María Quintana jugó o robó una carta.</paso>
+    <paso n="15">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="16">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="17">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="18">María Quintana jugó o robó una carta.</paso>
+    <paso n="19">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="20">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="21">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="22">María Quintana jugó o robó una carta.</paso>
+    <paso n="23">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="24">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="25">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="26">María Quintana jugó o robó una carta.</paso>
+    <paso n="27">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="28">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="29">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="30">María Quintana jugó o robó una carta.</paso>
+    <paso n="31">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="32">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="33">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="34">María Quintana jugó o robó una carta.</paso>
+    <paso n="35">Sarah Junior jugó o robó una carta.</paso>
+    <paso n="36">Pedro Pineda jugó o robó una carta.</paso>
+    <paso n="37">Juana del Arco jugó o robó una carta.</paso>
+    <paso n="38">María Quintana jugó o robó una carta.</paso>
+    <paso n="39">Ha ganado María Quintana</paso>
+  </pasos>
+</partida_jugada>

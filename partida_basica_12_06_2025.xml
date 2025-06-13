@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<partida_jugada>
+  <resumen>
+    <ganador>Sofia Gonzalez</ganador>
+    <total_pasos>39</total_pasos>
+  </resumen>
+  <pasos>
+    <paso n="1">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="2">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="3">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="4">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="5">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="6">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="7">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="8">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="9">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="10">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="11">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="12">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="13">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="14">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="15">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="16">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="17">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="18">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="19">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="20">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="21">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="22">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="23">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="24">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="25">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="26">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="27">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="28">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="29">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="30">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="31">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="32">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="33">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="34">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="35">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="36">Miguel Torres jugó o robó una carta.</paso>
+    <paso n="37">Ana Martinez jugó o robó una carta.</paso>
+    <paso n="38">Carlos Rodriguez jugó o robó una carta.</paso>
+    <paso n="39">Sofia Gonzalez jugó o robó una carta.</paso>
+    <paso n="40">Ha ganado Sofia Gonzalez</paso>
+  </pasos>
+</partida_jugada>
